@@ -39,8 +39,8 @@
             </li>
           </ul>
         </nav>
-
-        <button type="button" class="open-mobile-menu-btn js-open-menu" aria-expanded="false">
+        <button type="button" class="mobile-menu-open" data-mobile-close>
+        
           <svg class="burger-icon" width="32" height="22">
             <use href="./images/svg/icons.svg#burger"></use>
           </svg>
@@ -57,9 +57,11 @@
           </ul>
         </address>
       </div>
-      <div class="mobile-menu js-menu-container">
+      <div class="mobile-menu" data-modal-block>
+      
         <div class="mobile-menu-container container">
-          <button type="button" class="close-mobile-menu-btn js-close-menu">
+          <button class="mobile-menu__close-btn" data-mobile-open>
+         
             <svg class="close-mobile-menu-icon" width="8" height="8">
               <use href="./images/svg/icons.svg#close-btn"></use>
             </svg>
