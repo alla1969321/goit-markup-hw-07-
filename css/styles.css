@@ -281,7 +281,9 @@ p {
     display: flex;
     justify-content: space-between;
   }
-
+  .mobile-contacts-container{
+    margin-top: auto;
+  }
   .social-link-mobile-menu {
     display: flex;
     align-items: center;
